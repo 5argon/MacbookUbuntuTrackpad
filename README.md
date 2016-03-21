@@ -1,4 +1,4 @@
-# Macbook Force Touch trackpad tuning for Ubuntu
+# Macbook Force Touch Trackpad tuning for Ubuntu
 
 ## What is it
 
@@ -8,7 +8,7 @@ For touchpad lovers like me this is not acceptable. Luckily Ubuntu's Synaptic dr
 
 Some settings might differ from person to person, even so this might be a good starting point for further tweaking. This settings tried to get the touchpad working in Ubuntu as close to OSX as possible. However there is some flaws that I did not address yet.
 
-This is for Macbook with *Force Touch trackpad*, if you wish to use it with earlier Macbooks, you might want all the `TapButton` to be `1` to enable tapping.
+This is for Macbook with **Force Touch trackpad**, if you wish to use it with earlier Macbooks, you might want all the `TapButton` to be `1` to enable tapping.
 
 ## Improvements from the default Ubuntu settings
 
@@ -23,7 +23,7 @@ This is for Macbook with *Force Touch trackpad*, if you wish to use it with earl
 
 ## Installation
 
-1. Clone or download the repo so you have the *50-synaptics.conf* file.
+1. Clone or download the repo so you have the **50-synaptics.conf** file.
 2. Make sure `/etc/X11/xorg.conf.d/` directory exist. Put the file or symlinking it to that directory.
 3. Restart and see if it works or not. (Or try `synclient` command and see if the values corresponds to that in the `.conf` file.
 4. If it is not working, GNOME might be overriding your configuration. Download and use `dconf-editor`
@@ -36,5 +36,5 @@ Then dig down the tree to `org.gnome.settings-daemon.plugins.mouse` and deactiva
 
 - Two finger gesture to forward-backward in web browser. Might require more plugins.
 - When palm detection activates, your mouse is disabled until you lifted the touch. In OSX, palm detection runs continuously and seamlessly transition between states without lifting finger.
-- Two finger scrolling is not as fine as in OSX. In OSX, scrolling a webpage is a bliss, as the webpage responds *exactly* to your finger as if you are really grabbing the page. In Ubuntu, scrolling moting seemes to translate to discreet number of certain steps. (You will notice this when scrolling slowly.)
-- Ubuntu has noticable delay of two finger scrolling. Try two-finger *flicking* the webpage, it is far less satisfying than in OSX.
+- Two finger scrolling is not as fine as in OSX. In OSX, scrolling a webpage is a bliss, as the webpage responds **exactly** to your finger as if you are really grabbing the page. In Ubuntu, scrolling moting seemes to translate to discreet number of certain steps. (You will notice this when scrolling slowly.)
+- Ubuntu has noticable delay of two finger scrolling. Try two-finger **flicking** the webpage, it is far less satisfying than in OSX.
