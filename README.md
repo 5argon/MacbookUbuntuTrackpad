@@ -24,7 +24,7 @@ This is for Macbook with **Force Touch trackpad**, if you wish to use it with ea
 ## Installation
 
 1. Clone or download the repo so you have the **50-synaptics.conf** file.
-2. Make sure `/etc/X11/xorg.conf.d/` directory exist. Put the file or symlinking it to that directory.
+2. Make sure `/etc/X11/xorg.conf.d/` directory exist. Copy the file to that directory. (symlinking does not work)
 3. Restart and see if it works or not. (Or try `synclient` command and see if the values corresponds to that in the `.conf` file.
 4. If it is not working, GNOME might be overriding your configuration. Download and use `dconf-editor`
 
