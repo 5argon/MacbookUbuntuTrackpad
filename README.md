@@ -2,11 +2,11 @@
 
 ## What is it
 
-If you are dual booting the Macbook with Ubuntu, chance are that your god-like touchpad is now getting more and more annoying for various reasons. (This proves that Apple engineer did excellent job on both hardware and software together)
+If you are dual booting the Macbook to Ubuntu, chance is that your god-like touchpad is now getting more and more annoying for various reasons. (This proves that Apple engineer did excellent job on both hardware and software together.)
 
 For touchpad lovers like me this is not acceptable. Luckily Ubuntu's Synaptic driver and its corresponding `synclient` allows tuning of various parameters.
 
-Some settings might differ from person to person, even so this might be a good starting point for further tweaking. This settings tried to get the touchpad working in Ubuntu as close to OSX as possible. However there is some flaws that I did not address yet.
+Some settings might differ from person to person, even so this might be a good starting point for further tweaking. This settings tried to get the touchpad working in Ubuntu as close to OSX as possible. However there are some flaws that I did not address yet.
 
 This is for Macbook with **Force Touch trackpad**, if you wish to use it with earlier Macbooks, you might want all the `TapButton` to be `1` to enable tapping.
 
