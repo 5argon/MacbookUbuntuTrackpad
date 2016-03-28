@@ -35,6 +35,7 @@ Then dig down the tree to `org.gnome.settings-daemon.plugins.mouse` and deactiva
 ## Missing
 
 - Two finger gesture to forward-backward in web browser. Might require more plugins.
+- Go adjust pointer speed separately to your taste in Mouse and Touchpad settings. It is not included in this script.
 - When palm detection activates, your mouse is disabled until you lifted the touch. In OSX, palm detection runs continuously and seamlessly transition between states without lifting finger.
 - Two finger scrolling is not as fine as in OSX. In OSX, scrolling a webpage is a bliss, as the webpage responds **exactly** to your finger as if you are really grabbing the page. In Ubuntu, scrolling moting seemes to translate to discreet number of certain steps. (You will notice this when scrolling slowly.)
 - Ubuntu has noticable delay of two finger scrolling. Try two-finger **flicking** the webpage, it is far less satisfying than in OSX.
